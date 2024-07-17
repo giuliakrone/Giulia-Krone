@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="https://www.idfmoebel.de/bilder/stuehle-design-in-holz/saya-stuehle-mit-holzstruktur.jpg" alt="Schreinerei Logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Homepage</a></li>
+                <li><a href="services.html">Products</a></li>
+                <li><a href="hours.html">Opening Hours</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="materials.html">Materialinformationen</a></li>
+                <li><a href="legal.html">Impressum</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Kontakt</h1>
+        <form action="contact-form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">E-Mail:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="phone">Telefon:</label>
+            <input type="tel" id="phone" name="phone">
+            
+            <label for="message">Nachricht:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button type="submit">Absenden</button>
+        </form>
+        <h2>Unsere Adresse</h2>
+        <p>Schreinerei Style Icon<br>
+           Musterstraße 1<br>
+           12345 Musterstadt</p>
+        <h2>Telefon</h2>
+        <p>0621/98765432</p>
+        <h2>E-Mail</h2>
+        <p>info@style_icon.de</p>
+        <img src="images/map-screenshot.png" alt="Anreise">
+    </main>
+    <footer>
+        <p>&copy; 2024 Style Icon </p>
+    </footer>
+</body>
+</html>
